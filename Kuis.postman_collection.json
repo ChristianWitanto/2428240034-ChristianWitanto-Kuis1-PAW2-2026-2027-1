@@ -107,6 +107,24 @@
         }
       },
       "response": []
+    },
+    {
+      "name": "Update Seluruh Data",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "{{BASE_URL}}/smartphone/",
+          "host": [
+            "{{BASE_URL}}"
+          ],
+          "path": [
+            "smartphone",
+            ""
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }
